@@ -1,19 +1,19 @@
-# Python stuff (wajib!)
+# Python stuff 
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Environment (PENTING biar library lo nggak ke-upload semua)
+# Environment 
 venv/
 env/
 .env
 
-# Ide / Editor (Biar VS Code lo nggak ikut masuk)
+# IDE
 .vscode/
 .idea/
 
-# File sensitif (Kalau nanti lo punya password/API Key)
+# Sensitive Files
 *.key
 *.secret
 .DS_Store
