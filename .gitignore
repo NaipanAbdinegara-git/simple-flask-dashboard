@@ -1,0 +1,27 @@
+# Python stuff (wajib!)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment (PENTING biar library lo nggak ke-upload semua)
+venv/
+env/
+.env
+
+# Ide / Editor (Biar VS Code lo nggak ikut masuk)
+.vscode/
+.idea/
+
+# File sensitif (Kalau nanti lo punya password/API Key)
+*.key
+*.secret
+.DS_Store
+
+# Log files (kalo ada)
+*.log
+
+# files
+weather_requests_v2.py
+weather_requests.py
+weather.csv

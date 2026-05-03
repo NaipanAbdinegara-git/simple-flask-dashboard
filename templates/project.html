@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="doodle-text-box2">
+    <h2>Maintained Projects</h2>
+    <p>Projects I'm currently pouring my energy into:</p>
+    
+    <div class="project-list">
+        <p><strong>{{ project }}</strong></p>
+    </div>
+
+    <hr style="border: 0; border-top: 1px dashed #ccc; margin: 1.5rem 0;">
+
+    <p>Total active projects:</p>
+    <p style="font-size: 2rem; font-weight: 800; color: var(--primary);">{{ total_project }}</p>
+</section>
+
+<section class="doodle-text-box">
+    <h2>Unmaintained/Lost Projects</h2>
+    <p>Projects that have been "put on ice" due to bandwidth or changing priorities:</p>
+    
+    <div class="project-list">
+        <p><strong>{{ unmaintained }}</strong></p>
+    </div>
+
+    <hr style="border: 0; border-top: 1px dashed #ccc; margin: 1.5rem 0;">
+
+    <p>Total unmaintained projects:</p>
+    <p style="font-size: 2rem; font-weight: 800; color: var(--primary);">{{ total_unmaintained }}</p>
+</section>
+
+<section class="doodle-text-box2">
+    <h2>API Integration</h2>
+    <p>External services and APIs I've integrated into my projects:</p>
+    
+    <div class="project-list">
+        <p><strong>{{ api }}</strong></p>
+    </div>
+
+    <hr style="border: 0; border-top: 1px dashed #ccc; margin: 1.5rem 0;">
+
+    <p>Total APIs utilized:</p>
+    <p style="font-size: 2rem; font-weight: 800; color: var(--primary);">{{ total_api }}</p>
+</section>
+{% endblock %}

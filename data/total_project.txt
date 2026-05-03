@@ -1,0 +1,4 @@
+notfun.my.id
+weather-requests-python
+nvidia-chat
+eresh-id-chatbot

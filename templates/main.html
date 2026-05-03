@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card-container">
+  <div class="doodle-card">
+    <h3>Maintained Project</h3>
+    <center><p>{{ total_project }}</p></center>
+  </div>
+
+  <div class="doodle-card">
+    <h3>Total Lost Project</h3>
+    <center><p>{{ total_unmaintained }}</p></center>
+  </div>
+
+  <div class="doodle-card">
+    <h3>Total API Used</h3>
+    <center><p>{{ total_api }}</p></center>
+  </div>
+</div>
+
+<section class="doodle-text-box">
+  <h2>About this page</h2>
+  <p>
+  Welcome to my status board! Here’s a peek at what I’m currently building, what’s active, and what’s ‘put on ice’. Everything is synced automatically via Flask from my /data folder. 
+  Check the <strong>Projects</strong> tab to see my archives, or just scroll down to peek under the hood of how this site was built!
+</p>
+</section>
+{% endblock %}
