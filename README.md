@@ -1,6 +1,6 @@
 # simple-flask-dashboard
 
-A lightweight Flask dashboard template — clean, minimal, and easy to build on.
+A lightweight Flask dashboard template, clean, minimal, and easy to build on.
 
 ## Setup
 
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Overview
 
-- **Tech stack:** Python, Flask  
+- **Tech stack:** Python, Flask, Vercel
 - **Dependency:** Flask 3.1.3  
 - **Use cases:** small dashboards, analytics tools, simple monitoring apps  
 
@@ -35,5 +35,5 @@ pip install -r requirements.txt
 
 ## Notes
 
-This is a minimal starter project — no heavy setup, no unnecessary complexity.  
+This is a minimal starter project. No heavy setup, no unnecessary complexity.  
 Feel free to modify, expand, and make it your own 🚀
