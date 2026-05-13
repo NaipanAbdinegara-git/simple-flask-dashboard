@@ -1,4 +1,5 @@
-notfun.my.id
+datawhisper
+daily_point
 weather-requests-python
 nvidia-chat
 eresh-id-chatbot
