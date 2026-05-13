@@ -3,4 +3,5 @@ proyek-ai-cli
 simple-todo-list
 eduvaults
 naipan.my.id
+notfun.my.id
 chronicles-memory
