@@ -1,5 +1,5 @@
 datawhisper
-daily_point
+daily_score
 weather-requests-python
 nvidia-chat
 eresh-id-chatbot
