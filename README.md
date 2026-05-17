@@ -36,4 +36,4 @@ pip install -r requirements.txt
 ## Notes
 
 This is a minimal starter project. No heavy setup, no unnecessary complexity.  
-Feel free to modify, expand, and make it your own 🚀
+Feel free to modify, expand, and make it your own 
