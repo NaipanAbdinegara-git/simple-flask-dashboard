@@ -7,3 +7,4 @@ simple-flask-dashboard
 random-text-python
 naipan.me
 mental-health-calculator
+whatsapp-bot
