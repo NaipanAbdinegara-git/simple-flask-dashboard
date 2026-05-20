@@ -5,3 +5,4 @@ eduvaults
 naipan.my.id
 notfun.my.id
 chronicles-memory
+zebra-ai
